@@ -6,7 +6,7 @@ This repository is designed with clean software engineering principles, modular 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project is organized into self-contained packages covering the entire ML pipeline:
 
@@ -45,13 +45,8 @@ ml-from-scratch/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Prerequisites
-- Python 3.8+
-- [uv](https://github.com/astral-sh/uv) (recommended) or `pip`
-
-### 2. Installation & Setup
 Clone the repository and set up a virtual environment:
 
 ```bash
@@ -67,23 +62,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Running Tests
+## Running Tests
 Verify your implementations using `pytest`:
 
 ```bash
 pytest
 ```
-
 ---
-
-## 🛠 Future Additions & Roadmap
-This repository is designed to be highly extensible. Future extensions plan to cover:
-- [ ] Support for regularization (Lasso/Ridge) in regression.
-- [ ] Tree-based algorithms (Decision Trees, Random Forests).
-- [ ] Advanced Optimizers (Adam, RMSProp).
-- [ ] Convolutional Neural Networks (CNNs) components from scratch.
-
----
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
